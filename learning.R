@@ -74,7 +74,7 @@ m
 
 ### DATA FRAME ###
 #criação de dataframe
-setwd("/home/joao/R/curso")
+setwd("/home/joao/joao_code/R/curso")
 df <- read.csv("DataFrame.csv")
 
 #access e views
@@ -140,7 +140,7 @@ a[a>2]
 a[a>=2]
 
 #trabalhando com data frames
-setwd("/home/joao/R/curso")
+setwd("/home/joao/joao_code/R/curso")
 df <- read.csv("DataFrame.csv")
 
 df[1]
