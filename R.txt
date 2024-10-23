@@ -1,0 +1,38 @@
+R is a statistical and graphical programming language that has specialized in manipulating,
+analyzing and visualizing data, and is currently considered one of the best tools for
+this purpose.
+
+****Variables****
+They are created by the programmer for the purpose of saving information. Information
+entered into a variable will be available for use as long as the variable exists. The variables
+will have a specific type, according to the type of data that was saved or according to the
+programmer's instructions.
+
+****Functions****
+They are a set of predefined instructions that perform one or more tasks. There are many
+functions ready for use, saved in packages designed to facilitate the creation of scripts. The more
+functions the programmer knows, the easier it will be to write his scripts. It is also possible to create
+functions in the script itself, passing all the instructions that should occur when the function is used.
+
+****Operators****
+With operators we perform mathematical operations, such as addition, division, multiplication, etc.,
+and comparisons such as equal, different, greater and lesser. We can also use the logical operators AND, OR, and
+negation to simplify our codes.
+
+****Data types****
+Numeric (mathematical operations), characters (operations with letters, words, phrases, etc.),
+factors (categories) and logical (true or false). These are the basic data types that exist in the R language.
+
+****Data structure****
+Vectors, which are a sequence of data of the same type. Lists, which are vectors with different
+data types. Arrays, which have two dimensions and one data type. Data frames, which are more complex structures,
+similar to Excel spreadsheets and with different types of data.
+
+****Conditionals****
+If, For and While. In the If conditional, we say that if something is true, an action must be performed,
+if it is not, another will be (or none). In the For loop, one or more instructions will be executed a certain number of
+times. In the While loop, instructions will be carried out as long as a condition is met.
+
+
+**Important**
+All this information was taken from the website: https://didatica.tech/a-linguagem-r/
