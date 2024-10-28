@@ -13,20 +13,20 @@ DO <- fetch_datasus(information_system = "SIM-DO",
 
 DO <- process_sim(DO)
 
-#-------- Explorar o dataset
+#-------- Exploring the dataset
 glimpse(DO)
 DescTools::Desc(DO$CAUSABAS, plotit = FALSE)
 
-#-------- Filtro por IAM
+#-------- Filter by IAM
 DO <- DO %>% filter(CAUSABAS == "B342")
 
-#-------- Ranking de Muicípio de Residência
+#-------- Ranking of Municipality of Residence
 DO %>%
   group_by(munResNome) %>%
   summarise(Obitos = length(CAUSABAS)) %>%
   arrange(desc(Obitos))
 
-#-------- Script completo
+#-------- complete script
 DO <- fetch_datasus(information_system = "SIM-DO",
                     year_start = 2022, year_end = 2022,
                     uf = "PB")
